@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pastane</title>
+</head>
+<body>
+    <div id="background-image"></div>
+    
+    
+    <div class="content">
+        <br><br><br>
+        <section id="menu1">
+            <button class="menu-button" data-target="menuModal1">Sütlü Tatlılar</button>
+            <div id="menuModal1" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeMenu('menuModal1')">&times;</span>
+                    <h2>Sütlü Tatlılar</h2>
+                    <ul>
+                        <li>
+                            <img src="sutluTatlilar/kazandibi.webp" alt="Kazandibi">
+                            <div class="menu-item-details">
+                                <h3>Kazandibi</h3>
+                                <p>Porsiyon Fiyatı: 80 TL</p>
+                                <p>İçindekiler: Süt, Şeker, Un, Tarçın</p>
+                                <p>Özellikler: Geleneksel Türk tatlısı, karamel tabakalı</p>
+                            </div>
+                        </li>
+                        <hr><hr>
+                        <li>
+                            <img src="sutluTatlilar/profiterol.webp" alt="Profiterol">
+                            <div class="menu-item-details">
+                                <h3>Profiterol</h3>
+                                <p>Porsiyon Fiyatı: 75 TL</p>
+                                <p>İçindekiler: Krema, Çikolata, Hamur</p>
+                                <p>Özellikler: Fransız kökenli, çikolata soslu</p>
+                            </div>
+                        </li>
+                        <hr><hr>
+                        <li>
+                            <img src="sutluTatlilar/sutlac.jpg" alt="Sütlaç">
+                            <div class="menu-item-details">
+                                <h3>Sütlaç</h3>
+                                <p>Porsiyon Fiyatı: 60 TL</p>
+                                <p>İçindekiler: Süt, Pirinç, Şeker, Vanilin</p>
+                                <p>Özellikler: Yöresel tatlı, fırında pişirilmiş</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    
+        <section id="menu2">
+            <button class="menu-button" data-target="menuModal2">Şerbetli Tatlılar</button>
+            <div id="menuModal2" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeMenu('menuModal2')">&times;</span>
+                    <h2>Şerbetli Tatlılar</h2>
+                    <ul>
+                        <li>
+                            <img src="serbetliTatlilar/baklava.jpg" alt="Baklava">
+                            <div class="menu-item-details">
+                                <h3>Baklava</h3>
+                                <p>Porsiyon Fiyatı: 90 TL</p>
+                                <p>İçindekiler: İrmik, Fıstık, Şeker, Şerbet</p>
+                                <p>Özellikler: Geleneksel Türk tatlısı, fıstıklı kat kat hamur</p>
+                            </div>
+                        </li>
+                        <hr><hr>
+                        <li>
+                            <img src="serbetliTatlilar/kadayif.jpg" alt="Kadayıf">
+                            <div class="menu-item-details">
+                                <h3>Kadayıf</h3>
+                                <p>Porsiyon Fiyatı: 85 TL</p>
+                                <p>İçindekiler: Tel Kadayıf, Fıstık, Şeker, Şerbet</p>
+                                <p>Özellikler: İnce tel tel hamur, fıstık içeren</p>
+                            </div>
+                        </li>
+                        <hr><hr>
+                        <li>
+                            <img src="serbetliTatlilar/sogukBaklava.jpg" alt="Soğuk Baklava">
+                            <div class="menu-item-details">
+                                <h3>Soğuk Baklava</h3>
+                                <p>Porsiyon Fiyatı: 105 TL</p>
+                                <p>İçindekiler: Fıstık, Baklava Hamuru, Şeker, Şerbet</p>
+                                <p>Özellikler: Dondurulmuş baklava, fıstıklı</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="menu3">
+            <button class="menu-button" data-target="menuModal3">Pasta Çeşitleri</button>
+            <div id="menuModal3" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeMenu('menuModal3')">&times;</span>
+                    <h2>Pasta Çeşitleri</h2>
+                    <ul>
+                        <li>
+                            <img src="pastalar/cikolataliPata.webp" alt="Çikolatalı Pasta">
+                            <div class="menu-item-details">
+                                <h3>Çikolatalı Pasta</h3>
+                                <p>Fiyat: 250 TL</p>
+                                <p>İçindekiler: Çikolata, Un, Yumurta, Şeker</p>
+                                <p>Özellikler: Yoğun çikolata lezzeti, süslemelerle servis edilir</p>
+                            </div>
+                        </li>
+                        <hr><hr>
+                        <li>
+                            <img src="pastalar/meyveliPasta.jpg" alt="Meyveli Pasta">
+                            <div class="menu-item-details">
+                                <h3>Meyveli Pasta</h3>
+                                <p>Fiyat: 220 TL</p>
+                                <p>İçindekiler: Çilek, Muz, Pasta Tabanı, Krem Şanti</p>
+                                <p>Özellikler: Taze meyvelerle süslenmiş, hafif tat</p>
+                            </div>
+                        </li>
+                        <hr><hr>
+                        <li>
+                            <img src="pastalar/ozelPasta.jpg" alt="Özel Pasta">
+                            <div class="menu-item-details">
+                                <h3>Özel Pasta</h3>
+                                <p>Fiyat: 450 TL</p>
+                                <p>İçindekiler: Damla Çikolata, Fındık, Karamel Sos</p>
+                                <p>Özellikler: Özel tarifle yapılmış, özel günler için</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="about">
+            <h2 class="baslik">Hakkımızda</h2>
+            <p>Ertuğ Pastane, 1985 yılında İstanbul'un kalbinde kurulmuş bir aile işletmesidir. 30 yılı aşkın süredir, lezzet tutkunu müşterilerimize kaliteli, özgün ve unutulmaz tatlar sunmaktan gurur duyuyoruz.</p>
+            <p>Her bir ürünümüz, el yapımı ve özel tariflerle hazırlanmaktadır. Ertuğ Pastane'nin mutfak ekibi, geleneksel tatları modern yorumlarla birleştirerek benzersiz ve etkileyici lezzetler ortaya çıkarmaktadır. Kullandığımız taze ve kaliteli malzemeler, ürünlerimizin en üst düzeyde lezzet sunmasını sağlar.</p>
+            <p>Şirketimiz, sadece tatlılar ve kahveler üretmekle kalmaz, aynı zamanda bir buluşma noktasıdır. Misafirlerimizi sıcak ve samimi bir atmosferde ağırlamaktan keyif alırız. Ertuğ Pastane, bir fincan kahvenin ya da bir dilim pastanın sadece bir lezzet deneyimi değil, aynı zamanda paylaşılan anılar ve güzel sohbetler demek olduğuna inanır.</p>
+            <p>Şeflerimiz, yaratıcılıklarını ve uzmanlıklarını kullanarak her gün yeni ve ilgi çekici tatlar keşfetmeye devam ederler. Müşteri memnuniyeti bizim için en öncelikli değerdir ve bu doğrultuda, her bir misafirimizi özel ve memnun ayrılmış hissettirmek için çaba sarf ederiz.</p>
+            <p>Siz değerli müşterilerimizi Ertuğ Pastane ailesine davet etmekten ve sizlerle bu lezzet dolu yolculuğa çıkmaktan mutluluk duyarız. Kaliteli hizmet, lezzetli tatlar ve sıcak bir atmosfer için bizi tercih ettiğiniz için teşekkür ederiz.</p>
+        </section>
+        
+        
+        <section id="contact">
+            <h2 class="baslik">İletişim</h2>
+            <p>Ertuğ Pastane'ye ulaşmak için aşağıdaki iletişim bilgilerimizi kullanabilir veya bize mesaj bırakabilirsiniz:</p>
+        
+            <div class="contact-info">
+                <p><strong>Adres:</strong> Örnek Mahallesi, Örnek Sokak No: 123, Örnek İlçe, Örnek Şehir</p>
+                <p><strong>Telefon:</strong> (0123) 456 78 90</p>
+                <p><strong>E-posta:</strong> info@ertugpastane.com</p>
+            </div>
+
+            <br><br><br><br>
+        
+            <div class="contact-form">
+                <h3>İstek ve Şikayet</h3>
+                <form action="mesaj-gonder.php" method="post">
+                    <label for="ad-soyad">Adınız Soyadınız:</label>
+                    <input type="text" id="ad-soyad" name="ad-soyad" required>
+        
+                    <label for="email">E-posta Adresiniz:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="mesaj">Mesajınız:</label>
+                    <textarea id="mesaj" name="mesaj" rows="4" required></textarea>
+        
+                    <button type="submit">Gönder</button>
+                </form>
+            </div>
+        </section>
+        
+        <div class="neon-text">
+            <p> Her ayın 15'i ve 25'i indirim günü! Bu tarihlerde bütün pasta ve tatlılarda %50 indirim var!</p>
+        </div>
+
+       
+    </div>
+
+   <div id="lightboxModal" class="modal">
+    <div class="modal-content lightbox-content">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div id="lightboxContent" class="lightbox-image">
+            <img id="lightboxImage" src="" alt="">
+        </div>
+        <span class="lightbox-close-button" onclick="closeLightbox()">&times;</span>
+    </div>
+</div>
+
+
+<footer>
+    <p>&copy; <span class="copyright-date">2024</span> Ertuğ Pastane | <a href="#">Kullanım Koşulları</a> | <a href="#">Gizlilik Politikası</a></p>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
